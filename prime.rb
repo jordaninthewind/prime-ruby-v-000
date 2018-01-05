@@ -4,13 +4,12 @@ factors = []
     return false
   else
     (3...num).to_a.each do | el |
+      p el
       if num % el == 0
         factors << el
       end
     end
   end
-  p num
-  p factors
 
   if factors.length > 1
     false
