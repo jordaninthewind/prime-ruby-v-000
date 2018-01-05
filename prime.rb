@@ -1,3 +1,5 @@
+require 'pry'
+
 def prime?(num)
 factors = []
   if num < 3
