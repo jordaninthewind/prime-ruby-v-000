@@ -9,3 +9,5 @@ factors = []
   end
   factors.length > 2 ? false : true
 end
+
+puts Benchmark.measure{prime?(10403)}
