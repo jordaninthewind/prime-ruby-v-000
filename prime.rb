@@ -6,7 +6,7 @@ factors = []
   end
 
 
-
+p factors
   if factors.length == 0
     true
   else
