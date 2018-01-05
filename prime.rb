@@ -1,6 +1,6 @@
 def prime?(num)
 p num
-factors = []
+factors = Array.new
 
   if num < 3
     return false
