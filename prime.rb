@@ -1,5 +1,5 @@
 def prime?(num)
-
+p num
 factors = []
 
   if num < 3
