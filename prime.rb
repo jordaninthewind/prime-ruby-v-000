@@ -14,10 +14,10 @@ factors = []
 
 p factors
 
-  if factors.length > 1
-    false
-  else
+  if factors.length == 0
     true
+  else
+    false
   end
 
 end
