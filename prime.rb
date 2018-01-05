@@ -1,6 +1,7 @@
 require 'pry'
 
 def prime?(num)
+p num
 factors = []
   if num < 3
     return false
