@@ -1,16 +1,13 @@
 def prime?(num)
-
 factors = []
-  (1...num).to_a.each do | el |
-    factors << el if num % el == 0
-  end
-
-
-p factors
-  if factors.length == 0
-    true
+  if num < 3
+    return false
   else
-    false
-  end
+    (1...num).to_a.each do | el |
+      factors << el if num % el == 0
+    end
 
+  p factors
+
+  factors.length == 0 : true : false
 end
