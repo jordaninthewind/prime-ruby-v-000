@@ -7,8 +7,8 @@ factors = []
       factors << el if num % el == 0
     end
   end
-  
+
   p factors
 
-  factors.length == 0 : true : false
+  factors.length == 2 : true : false
 end
