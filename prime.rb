@@ -4,8 +4,8 @@ factors = []
     return false
   else
     (3...num).to_a.each do | el |
-      p el
       if num % el == 0
+        p el
         factors << el
       end
     end
