@@ -7,12 +7,12 @@ factors = []
     return false
   else
     # binding.pry
-    (1...num).to_a.each do | el |
+    (1..num).to_a.each do | el |
       factors << el if num % el == 0
     end
   end
 
   p factors
 
-  factors.length == 2 ? true : false
+  factors.length > 2 ? false : true
 end
