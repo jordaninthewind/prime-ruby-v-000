@@ -13,5 +13,5 @@ factors = []
 
   p factors
 
-  factors.length == 2 : true : false
+  factors.length == 2 ? true : false
 end
