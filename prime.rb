@@ -12,6 +12,8 @@ factors = []
     end
   end
 
+p factors
+
   if factors.length > 1
     false
   else
