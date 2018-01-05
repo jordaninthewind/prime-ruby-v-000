@@ -6,9 +6,7 @@ factors = []
     return false
   else
     (3...num).to_a.each do | factor |
-      if num % factor == 0
-        factors << factor
-      end
+      factors << factor if num % factor == 0
     end
   end
 
