@@ -9,7 +9,9 @@ factors = []
       end
     end
   end
-  
+  p num
+  p factors
+
   if factors.length > 1
     false
   else
